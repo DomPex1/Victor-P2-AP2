@@ -31,14 +31,14 @@ namespace VictorP2_AP2.BLL
             return ventas;
 
         }
-        public static List<Ventas> GetList(Expression<Func<Ventas, bool>> producto)
+        public static List<Ventas> GetList(Expression<Func<Ventas, bool>> ventas)
         {
             List<Ventas> Lista = new List<Ventas>();
             Contexto aux = new Contexto();
 
             try
             {
-                Lista = aux.Ventas.Where(producto).ToList();
+                Lista = aux.Ventas.Where(ventas).ToList();
             }
             catch (Exception)
             {
@@ -52,5 +52,7 @@ namespace VictorP2_AP2.BLL
 
             return Lista;
         }
+        
+
     }
 }

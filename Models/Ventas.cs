@@ -15,6 +15,7 @@ namespace VictorP2_AP2.Models
         public int ClienteId { get; set; }
         public double Monto { get; set; }
         public double Balance { get; set; }
+        public virtual bool Pendiente => Balance > 0;
     }
 
 }

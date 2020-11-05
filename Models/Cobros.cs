@@ -30,7 +30,17 @@ namespace VictorP2_AP2.Models
         [ForeignKey("CobroId")]
         public virtual List<CobrosDetalle> CobrosDetalle { get; set; }
 
+        private void CalcularMonto() {
+            Cobrado = 0;
+            foreach (var CobrosDetalle in CobrosDetalle) {
+                Cobrado += CobrosDetalle.Monto;
+            }
+        }
 
+        public double ObtenerMonto() {
+            CalcularMonto();
+            return Cobrado;
+        }
         public Cobros()
         {
             CobroId = 0;

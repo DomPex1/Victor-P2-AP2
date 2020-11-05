@@ -31,11 +31,9 @@ namespace VictorP2_AP2.BLL
                 foreach (var item in cobros.CobrosDetalle)
                 {
                     
-                    var auxCobro = contexto.Ventas.Find(item.VentaId);
-                    if (auxCobro != null)
-                    {
-                        auxCobro.Balance -= item.Cobrado;
-                    }
+                    item.Ventas = contexto.Ventas.Find(item.VentaId);
+                    item.Ventas.Balance -= item.Cobrado;
+                    contexto.Entry(item.Ventas).State = EntityState.Modified;
                 }
                 
                 contexto.Cobros.Add(cobros);

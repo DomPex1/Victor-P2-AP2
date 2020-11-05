@@ -12,6 +12,7 @@ namespace VictorP2_AP2.Models
         public int CobroDetalleId { get; set; }
         public int CobroId { get; set; }
         public int VentaId { get; set; }
+        public virtual Ventas Ventas{get; set;}
         public DateTime Fecha { get; set; }
         public double Monto { get; set; }
         public double Balance { get; set; }
