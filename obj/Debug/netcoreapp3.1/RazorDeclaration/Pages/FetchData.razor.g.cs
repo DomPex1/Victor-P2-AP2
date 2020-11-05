@@ -77,6 +77,20 @@ using VictorP2_AP2.Shared;
 #line hidden
 #nullable disable
 #nullable restore
+#line 10 "c:\Prog. Aplicada2\VictorP2-AP2\_Imports.razor"
+using Blazored.Toast;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 11 "c:\Prog. Aplicada2\VictorP2-AP2\_Imports.razor"
+using Blazored;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
 #line 3 "c:\Prog. Aplicada2\VictorP2-AP2\Pages\FetchData.razor"
 using VictorP2_AP2.Data;
 

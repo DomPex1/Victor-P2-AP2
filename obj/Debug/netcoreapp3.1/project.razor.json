@@ -12,134 +12,35 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": -919094232,
+        "HashCode": 704103398,
         "Kind": "Components.Component",
-        "Name": "VictorP2_AP2.App",
+        "Name": "VictorP2_AP2.Shared.NavMenu",
         "AssemblyName": "VictorP2-AP2",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "App"
+            "TagName": "NavMenu"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "VictorP2_AP2.App"
+          "Common.TypeName": "VictorP2_AP2.Shared.NavMenu"
         }
       },
       {
-        "HashCode": -921380016,
+        "HashCode": 1564714129,
         "Kind": "Components.Component",
-        "Name": "VictorP2_AP2.App",
+        "Name": "VictorP2_AP2.Shared.NavMenu",
         "AssemblyName": "VictorP2-AP2",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "VictorP2_AP2.App"
+            "TagName": "VictorP2_AP2.Shared.NavMenu"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "VictorP2_AP2.App",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -157731443,
-        "Kind": "Components.Component",
-        "Name": "VictorP2_AP2.Pages.Counter",
-        "AssemblyName": "VictorP2-AP2",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Counter"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "VictorP2_AP2.Pages.Counter"
-        }
-      },
-      {
-        "HashCode": -1860248582,
-        "Kind": "Components.Component",
-        "Name": "VictorP2_AP2.Pages.Counter",
-        "AssemblyName": "VictorP2-AP2",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "VictorP2_AP2.Pages.Counter"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "VictorP2_AP2.Pages.Counter",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -168569600,
-        "Kind": "Components.Component",
-        "Name": "VictorP2_AP2.Pages.FetchData",
-        "AssemblyName": "VictorP2-AP2",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "FetchData"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "VictorP2_AP2.Pages.FetchData"
-        }
-      },
-      {
-        "HashCode": 363417077,
-        "Kind": "Components.Component",
-        "Name": "VictorP2_AP2.Pages.FetchData",
-        "AssemblyName": "VictorP2-AP2",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "VictorP2_AP2.Pages.FetchData"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "VictorP2_AP2.Pages.FetchData",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -1074569762,
-        "Kind": "Components.Component",
-        "Name": "VictorP2_AP2.Pages.Index",
-        "AssemblyName": "VictorP2-AP2",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "VictorP2_AP2.Pages.Index"
-        }
-      },
-      {
-        "HashCode": 1110880089,
-        "Kind": "Components.Component",
-        "Name": "VictorP2_AP2.Pages.Index",
-        "AssemblyName": "VictorP2-AP2",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "VictorP2_AP2.Pages.Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "VictorP2_AP2.Pages.Index",
+          "Common.TypeName": "VictorP2_AP2.Shared.NavMenu",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -240,88 +141,68 @@
         }
       },
       {
-        "HashCode": 704103398,
+        "HashCode": -1074569762,
         "Kind": "Components.Component",
-        "Name": "VictorP2_AP2.Shared.NavMenu",
+        "Name": "VictorP2_AP2.Pages.Index",
         "AssemblyName": "VictorP2-AP2",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "NavMenu"
+            "TagName": "Index"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "VictorP2_AP2.Shared.NavMenu"
+          "Common.TypeName": "VictorP2_AP2.Pages.Index"
         }
       },
       {
-        "HashCode": 1564714129,
+        "HashCode": 1110880089,
         "Kind": "Components.Component",
-        "Name": "VictorP2_AP2.Shared.NavMenu",
+        "Name": "VictorP2_AP2.Pages.Index",
         "AssemblyName": "VictorP2-AP2",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "VictorP2_AP2.Shared.NavMenu"
+            "TagName": "VictorP2_AP2.Pages.Index"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "VictorP2_AP2.Shared.NavMenu",
+          "Common.TypeName": "VictorP2_AP2.Pages.Index",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
       {
-        "HashCode": 1071185071,
+        "HashCode": -919094232,
         "Kind": "Components.Component",
-        "Name": "VictorP2_AP2.Shared.SurveyPrompt",
+        "Name": "VictorP2_AP2.App",
         "AssemblyName": "VictorP2-AP2",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
+            "TagName": "App"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "VictorP2_AP2.Shared.SurveyPrompt"
+          "Common.TypeName": "VictorP2_AP2.App"
         }
       },
       {
-        "HashCode": 641839342,
+        "HashCode": -921380016,
         "Kind": "Components.Component",
-        "Name": "VictorP2_AP2.Shared.SurveyPrompt",
+        "Name": "VictorP2_AP2.App",
         "AssemblyName": "VictorP2-AP2",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "VictorP2_AP2.Shared.SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
+            "TagName": "VictorP2_AP2.App"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "VictorP2_AP2.Shared.SurveyPrompt",
+          "Common.TypeName": "VictorP2_AP2.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -15048,29 +14929,14 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Prog. Aplicada2\\VictorP2-AP2\\Shared\\SurveyPrompt.razor",
-      "TargetPath": "Shared\\SurveyPrompt.razor",
-      "FileKind": "component"
-    },
-    {
       "FilePath": "c:\\Prog. Aplicada2\\VictorP2-AP2\\Shared\\NavMenu.razor",
       "TargetPath": "Shared\\NavMenu.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Prog. Aplicada2\\VictorP2-AP2\\Pages\\FetchData.razor",
-      "TargetPath": "Pages\\FetchData.razor",
       "FileKind": "component"
     },
     {
       "FilePath": "c:\\Prog. Aplicada2\\VictorP2-AP2\\_Imports.razor",
       "TargetPath": "_Imports.razor",
       "FileKind": "componentImport"
-    },
-    {
-      "FilePath": "c:\\Prog. Aplicada2\\VictorP2-AP2\\Pages\\Counter.razor",
-      "TargetPath": "Pages\\Counter.razor",
-      "FileKind": "component"
     },
     {
       "FilePath": "c:\\Prog. Aplicada2\\VictorP2-AP2\\Pages\\Index.razor",

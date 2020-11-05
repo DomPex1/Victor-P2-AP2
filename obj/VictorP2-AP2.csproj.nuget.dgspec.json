@@ -40,7 +40,7 @@
           "dependencies": {
             "blazored.toast": {
               "target": "Package",
-              "version": "[*, )"
+              "version": "[3.1.2, )"
             },
             "microsoft.entityframeworkcore.sqlite": {
               "target": "Package",
